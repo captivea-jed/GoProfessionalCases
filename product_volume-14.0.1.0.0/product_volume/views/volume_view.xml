@@ -12,7 +12,7 @@
                         <label for="weight"/>
                         <div class="o_row" name="weight">
                             <field name="weight"/>
-                            <span>kg</span>
+                            <span>lb</span>
                         </div>
                         <label for="volume"/>
                         <div name="volume">
@@ -20,7 +20,7 @@
                             <field name="breadth" style="width:65px;" placeholder="Breadth"/>
                             <field name="height" style="width:60px;" placeholder="Height"/>
                             <field name="volume" style="width:192px;" string="Volume"/>
-                            <span>m³</span>
+                            <span>ft³</span>
                         </div>
                     </group>
                 </xpath>
