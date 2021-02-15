@@ -16,9 +16,9 @@
                         </div>
                         <label for="volume"/>
                         <div name="volume">
-                            <span>L: </span><field name="length" style="width:65px;" placeholder="Length"/>
-                            <span>W: </span><field name="breadth" style="width:65px;" placeholder="Width"/>
-                            <span>H: </span><field name="height" style="width:60px;" placeholder="Height"/>
+                            <field name="length" style="width:65px;" placeholder="Length"/>
+                            <field name="breadth" style="width:65px;" placeholder="Width"/>
+                            <field name="height" style="width:60px;" placeholder="Height"/>
                             <field name="volume" style="width:192px;" string="Volume"/>
                             <span>ft³</span>
                         </div>
