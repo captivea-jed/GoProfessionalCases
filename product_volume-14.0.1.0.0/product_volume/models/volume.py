@@ -32,5 +32,5 @@ class ProductDimensionsVolume(models.Model):
 
     @api.onchange('length', 'breadth', 'height')
     def onchange_l_b_h(self):
-        self.volume = float(self.length if self.length else 0) * float(self.breadth if self.breadth else 0) * float(
-            self.height if self.height else 0)
+        self.volume = (float(self.length if self.length else 0)/12) * (float(self.breadth if self.breadth else 0)/12) * (float(
+            self.height if self.height else 0)/12) #Captivea - Sebastien Gouverneur - changed the formula to input the dimensions in inches and calculate the volume in feet
